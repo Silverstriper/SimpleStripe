@@ -1,0 +1,205 @@
+/*
+Theme Name: SimpleStripe
+Theme URI: http://www.silverstriper.com
+Description: Basic theme for Silverstripe Powered Sites
+Version: 0.5
+Release: 10/01/2010
+*/
+
+/*
+	This typography.css file is included in the WYSIWYG editor
+*/
+
+.typography p {
+	font-size: 1em;
+	margin-bottom: 20px;
+}
+
+.typography a, .typography a:link, .typography a:visited, .typography a:active {
+color:#4F91B0;
+text-decoration:none;
+}
+
+.typography a:hover {
+	color: #424242;
+}
+
+.typography strong {
+	font-weight: bold;
+}
+
+.typography em {
+	font-style: italic;
+}
+
+.typography blockquote {
+	background:#F0F0E5 url(../images/quote.png) no-repeat scroll 10px 15px;
+	border:1px solid #C0C09B;
+	font-style:italic;
+	margin:20px 0;
+	padding:20px 20px 20px 65px;
+}
+
+.typography blockquote {
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-radius: 10px;
+}
+
+.typography ul {
+	list-style: none;
+	margin: 10px 0 10px;
+}
+
+.typography ul li {
+	background:transparent url(../images/icon_bullet.png) no-repeat 0 2px;
+	padding-bottom:5px;
+	padding-left:20px;
+	margin-left: 0px;
+}
+
+.typography ol {
+	list-style: decimal;
+	margin: 10px 0 10px;
+}
+
+.typography ol li {
+	margin-left: 30px;
+}
+
+.typography h1 {
+	color:#4F91B0;
+	font-size:1.9em;
+	font-weight:normal;
+	line-height:1.2em;
+	margin:0 0 15px;
+	padding:0 0;
+}
+
+.typography h2 {
+	color: #4F91B0;
+	font-size: 1.7em;
+	line-height: 1.2em;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+	padding: 0px 0;
+}
+
+.typography h3 {
+	color: #4F91B0;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+	padding: 0px 0;
+}
+
+.typography h4 {
+	color: #697E87;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+	padding: 0px 0;
+}
+
+.typography h5 {
+	color: #697E87;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+	padding: 0px 0;
+}
+
+.typography h6 {
+	color: #697E87;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+	padding: 0px 0;
+}
+
+.typography img.left, .typography img.leftAlone {
+	border:1px solid #E3E3E3;
+	display:inline;
+	margin:2px 15px 2px 0;
+	padding:5px;
+}
+
+.typography img.right {
+	float: right;
+	border:1px solid #E3E3E3;
+	display:inline;
+	margin:2px 0px 2px 15px;
+	padding:5px;
+}
+
+.typography img.center {
+	display: block;
+	margin: 0 auto 10px auto;
+	border:1px solid #E3E3E3;
+	padding: 5px;
+}
+
+.typography div.left {
+	overflow: hidden;
+	margin: 0 15px 0 0;
+	padding: 0 14px 0 0;
+}
+
+.typography div.right {
+	overflow: hidden;
+	margin: 0 0 0 15px;
+	padding: 0 0 0 14px;
+}
+
+.typography div.center {
+	margin: 0 auto 5px auto;
+}
+
+.typography pre {
+	font-family:monospace;
+	display:block;
+	margin:10px 1em;
+	padding:0;
+}
+
+.typography hr {
+	padding:5px;
+}
+
+.typography table {
+	font-size:1.1em;
+}
+
+.typography table tr td {
+		padding:3px 5px;
+}
+
+.typography p.MsoNormal, .typography p.MsoBodyText {
+	margin: 0;
+}
+
+.typography div.captionImage p.caption{
+	font-size:  12px;
+	line-height:  1em;
+}
+
+.leftAlone {
+	display: block !important;
+}
+
+div.leftAlone {
+	overflow:  hidden;
+	display: block !important;
+	float:  none;
+	
+}

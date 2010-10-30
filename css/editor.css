@@ -1,0 +1,25 @@
+/**
+ * This support file is used to style the WYSIWYG editor in the CMS
+ */
+
+@import "typography.css";
+
+html
+{
+	font-size: 62.5%;
+}
+
+body.mceContentBody {
+	min-height: 200px;
+	width: 620px;
+	margin-left: 10px;
+	color: #8B8C8C; 
+	font-size: 1.4em; 
+	line-height: 1.4em;
+	font-family: "Trebuchet MS", Helvetica, Verdana, Sans-serif;
+}
+
+body.mceContentBody a.broken {
+	background-color: #FF7B71;
+	border: 1px red solid;
+}

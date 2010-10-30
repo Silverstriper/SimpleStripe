@@ -1,0 +1,60 @@
+/*         IE7 Fixes             */
+
+/*********************************/
+/* Fixes for Image with Captions */
+/*********************************/
+img.right, .typography img.right {
+margin-left:0px;
+}
+
+div.right, .typography div.right {
+	overflow: visible;
+}
+
+/************************/
+/* Fixes for Search Box */
+/************************/
+#searchBox {
+	background: none;
+	border:0;
+	padding:0;
+	
+}
+#searchBox form {
+	display: block;
+	float: right;
+	overflow: hidden;
+	background:#E7E7E2 none repeat scroll 0 0;
+	border:1px solid #CBCBC9;
+	padding:5px;
+}
+
+#searchBox fieldset {
+	margin:0;
+	padding: 0;
+	float: right;
+}
+
+#searchBox form input#SearchForm_SearchForm_Search {
+	font-size:0.85em;
+	width:180px;
+	background:#E7E7E2 none repeat scroll 0 0;
+	border:none;
+	color:#666666;
+	padding:5px;
+}
+
+#searchBox form input#SearchForm_SearchForm_action_results {
+	
+}
+
+legend {
+	display: none;
+}
+
+/************************/
+/* Misc                 */
+/************************/
+ul.archiveMonths li {
+	border: 1px solid #fff;
+}

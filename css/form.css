@@ -1,0 +1,151 @@
+/*
+Theme Name: SimpleStripe
+Theme URI: http://www.silverstriper.com
+Description: Basic theme for Silverstripe Powered Sites
+Version: 1.0
+Release: 10/01/2010
+*/
+
+/*
+	+ FORM ELEMENTS
+	+ SEARCH ELEMENTS
+*/
+
+/***************************/
+/*     FORM ELEMENTS       */
+/***************************/
+fieldset {
+border:medium none;
+display:block;
+margin:5px 0 10px;
+padding:0;
+}
+
+
+fieldset .left{
+	display: block;
+	float: none;
+}
+
+form input[type="text"], form input[type="password"] {
+	font-size:1em;
+	color: #333333;
+	width:14em;
+	background:#F8F8F5 none repeat scroll 0 0;
+	border-color:#D1CEC6 #EDEDE8 #EDEDE8 #D1CEC6;
+	border-style:solid;
+	border-width:1px;
+	margin:0 10px 10px 0;
+	padding: 5px;
+}
+
+form textarea {
+	font-family:inherit;
+	color: #333333;
+	font-size:1em;
+	height:10em;
+	width:30em;
+	background:#F8F8F5 none repeat scroll 0 0;
+	border-color:#D1CEC6 #EDEDE8 #EDEDE8 #D1CEC6;
+	border-style:solid;
+	border-width:1px;
+	margin:0 10px 10px 0;
+}
+
+label {
+	display:block;
+	font-size:1.1em;
+	margin:0 0 0;
+	padding:10px 0 5px;
+}
+
+.action {
+	background-color:#A6CFDA;
+	border:1px solid #78B0BF;
+	color:#FFFFFF;
+	cursor: pointer;
+	font-size:0.85em;
+	font-weight: bold;
+	margin:0 0 0 2px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-transform:lowercase;
+}
+
+#Remember label {
+	display: inline;
+	padding: 0 5px;
+}
+
+#Remember label.right, #MemberLoginForm_LoginForm_Remember {
+	float: left;
+}
+
+
+/***************************/
+/*     SEARCH ELEMENTS   */
+/***************************/
+#searchBox {
+	display: block;
+	overflow: hidden;
+	background:#E7E7E2 none repeat scroll 0 0;
+	border:1px solid #CBCBC9;
+	padding:5px;
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-radius: 10px;
+}
+
+#searchBox .middleColumn {
+	display: inline;
+}
+
+#Search {
+	display: inline;
+}
+
+#searchBox form input[type="text"] {
+	font-size:0.85em;
+	width:200px;
+	background:#E7E7E2 none repeat scroll 0 0;
+	border:0 none;
+	color:#666666;
+	padding:5px;
+}
+
+#searchBox form input[type="text"]:focus
+ {
+	background-color: #E7E7E3;
+ }
+
+#searchBox .action {
+	font-size: 0.85em;
+	font-weight: normal;
+	background:#E7E7E2 none repeat scroll 0 0;
+	border:0 none;
+	color:#666666;
+	padding:5px;
+	border-left:1px solid #CBCBC9;
+	color:#616161;
+	cursor:pointer;
+	text-transform: none;
+}
+
+#SearchForm_SearchForm {
+	float: right;
+}
+
+#SearchForm_SearchForm fieldset {
+	margin: 0;
+}
+
+#SearchForm_SearchForm input[type="text"] {
+	margin: 0;
+	border: none;
+}

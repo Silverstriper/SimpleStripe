@@ -1,0 +1,144 @@
+/*         Die IE6               */
+
+/*********************************/
+/* Fixes for Image with Captions */
+/*********************************/
+img.right, .typography img.right {
+margin-left:0px;
+}
+
+div.right, .typography div.right {
+	overflow: visible;
+}
+
+/*********************************/
+/* Fixes for Main Nav            */
+/*********************************/
+header nav {
+	position: relative;
+	float: right;
+	overflow: hidden;
+	top: 1.2em;
+	right: 0;
+}
+
+#pageContent aside {
+	width: 290px;
+}
+
+hgroup.BlogTitle h6.numComments {
+	margin-left: -45px;
+	background:url(../../images/ie6/commentcount.png) no-repeat left top;
+}
+
+/*********************************/
+/* Fixes for Side Nav            */
+/*********************************/
+#nav_SideBar ul li {
+	margin: 0;
+	border: 1px solid #fff; /* this is a real hack - but ah well */
+	padding-bottom: -10px;
+}
+
+
+/**************************/
+/* PNG Transparency Fixes */
+/**************************/
+.typography blockquote {
+	background:#F0F0E5 url(../../images/ie6/quote.png) no-repeat 10px 15px;
+}
+
+.typography ul li {
+	background:transparent url(../../images/ie6/icon_bullet.png) no-repeat 0 2px;
+	position: relative;
+}
+
+#content nav.widget ul .rss {
+	background:url(../../images/ie6/rssfeed.png) no-repeat  left top;
+}
+
+#content nav.widget ul .email {
+	background:url(../../images/ie6/mail.png) no-repeat  left top;
+}
+
+#content nav.widget ul .twitter {
+	background:url(../../images/ie6/twitter.png) no-repeat  left top;
+}
+
+.commentrss  {
+	background:url("../../images/ie6/rssfeed.png") no-repeat left top;
+}
+
+
+/************************/
+/* Fixes for Search Box */
+/************************/
+#searchBox {
+	background: none;
+	border:0;
+	padding:0;
+	
+}
+#searchBox form {
+	display: block;
+	float: right;
+	overflow: hidden;
+	background:#E7E7E2 none repeat scroll 0 0;
+	border:1px solid #CBCBC9;
+	padding:5px;
+}
+
+#searchBox fieldset {
+	margin:0;
+	padding: 0;
+	float: right;
+}
+
+#searchBox form input#SearchForm_SearchForm_Search {
+	font-size:0.85em;
+	width:180px;
+	background:#E7E7E2 none repeat scroll 0 0;
+	border:none;
+	color:#666666;
+	padding:5px;
+}
+
+#searchBox form input#SearchForm_SearchForm_action_results {
+	
+}
+
+legend {
+	display: none;
+}
+
+/************************/
+/* Misc                 */
+/************************/
+#nav_SideBar h3 a, #nav_SideBar h3 a:link, #nav_SideBar h3 a:visited {
+	border-bottom:1px solid #E3E3E3;
+	position: relative;
+	color:#747474;
+	display:block;
+	font-weight:normal;
+	line-height:1.2em;
+	margin:0 0 10px;
+	padding:10px 0;
+}
+
+.WidgetHolder h3 {
+	position: relative;
+}
+
+ul.archiveMonths li {
+	border: 1px solid #fff;
+}
+
+#PageComments_holder {
+	padding-top: 10px;
+	clear: both;
+}
+
+#trackbacks {
+	clear: both;
+}
+

@@ -1,0 +1,676 @@
+/*
+Theme Name: SimpleStripe
+Theme URI: http://www.silverstriper.com
+Description: Basic theme for Silverstripe Powered Sites
+Version: 1.0
+Release: 10/01/2010
+*/
+
+/*
+	+ INCLUDES
+	+ GENERAL
+	+ CONTENT FRAMING
+	+ HEADER
+	+ FOOTER
+	+ HOMEPAGE (requires HomePage Class)
+	+ ASIDE
+	+ BLOG
+	+ PAGE COMMENTS
+	+ PAGINATION
+	+ MESSAGE BOX
+	
+	^ Typography.css contains styling for content elements
+	^ forms.css contains styling for form elements
+*/
+
+/* ******************************* */
+/*  CSS Includes                   */
+/* ******************************* */
+@import url("960/reset.css");
+@import url("960/960.css");
+@import url("typography.css");
+@import url("form.css");
+
+
+/* ******************************* */
+/* GENERAL                         */
+/* ******************************* */
+html
+{
+	font-size: 62.5%;
+}
+
+body { 
+	color: #8B8C8C; 
+	font-size: 1.4em; 
+	line-height: 1.4em;
+	font-family: "Trebuchet MS", Helvetica, Verdana, Sans-serif;
+	background:#E7E7E2 url(../images/main_bg.png) repeat-x left top;
+}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+	display:block;
+}
+
+a:link, a:visited, a:active {
+color:#4F91B0;
+text-decoration:none;
+}
+
+a:hover {
+	color: #424242;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: disc;
+}
+
+li {
+	margin-left: 30px;
+}
+
+.left, .leftAlone {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/* **************************/
+/*     CONTENT ELEMENTS     */
+/* **************************/
+.pageWrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#content {
+	display: block;
+	background-color:#FFFFFF;
+	border:1px solid #D2D2CF;
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#content {
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-radius: 10px;
+}
+
+
+/* **************************/
+/*     HEADER ELEMENTS      */
+/* **************************/
+
+header {
+	overflow: hidden;
+	margin: 10px 0;
+	position: relative;
+}
+
+header hgroup {
+	float: left;
+	padding: 10px 0 10px 10px;
+}
+
+header hgroup h1 {
+	font-size: 2.1em;
+}
+
+header hgroup h1, header hgroup h1 a, header hgroup h1 a:link, header hgroup h1 a:visited {
+	color: #424242;
+	line-height: 1.2em;
+}
+
+header hgroup h2 {
+	color: #4F91B0;
+	font-size: 1.6em;
+	line-height: 1.2em;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 35%;
+	font-size: 1.3em;
+	line-height: 1.2em;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+header nav ul li a, header nav ul li a:link {
+	padding: 0 20px 10px 20px;
+	display: block;
+}
+
+header nav ul li a:hover{
+	border-bottom: 1px solid #D2D2CF;
+}
+
+/***************************/
+/*     FOOTER ELEMENTS     */
+/***************************/
+footer {
+	clear: both;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 0.9em;
+	color: #424242;
+}
+
+#navFooter ul {
+	list-style: none;
+}
+
+#navFooter li {
+	margin-left: 5px;
+	border-right:1px solid #BEBEA7;
+	float:left;
+	padding:0 10px;
+}
+
+#navFooter li:last-child {
+	border-right:none;
+}
+
+#navFooter ul li a, #navFooter ul li a:link {
+	color: #424242;
+	text-decoration: none;
+}
+
+#navFooter ul li a:hover  {
+	color: #8B8C8C;
+}
+
+footer p {
+	text-align: right;
+}
+
+footer a:link, footer a:visited, footer a:active  {
+	color: #424242;
+}
+
+
+
+/***************************/
+/*     HOMEPAGE ELEMENTS   */
+/***************************/
+#homeFeature {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom:1px solid #E3E3E3;
+	overflow: hidden;
+}
+
+#homeFeature {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#homeFeature hgroup {
+	padding: 0;
+}
+
+#homeFeature h2 {
+	color: #4F91B0;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	font-weight: normal;
+	border-bottom: none;
+	margin: 0;
+	padding: 0;
+}
+
+#homeFeature h3 {
+	color: #696767;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	font-weight: normal;
+	margin: 0;
+}
+
+#callToAction {
+	float: right;
+}
+
+#callToAction a, #calltoAction a:link {
+	display: block;
+	background: #4F91B0;
+	padding: 15px 10px;
+	color: #fff;
+	text-decoration: none;
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-radius: 10px;
+}
+
+ #calltoAction a:hover {
+	background: #E7E7E2;
+	color: #424242;
+}
+
+#homeContent {
+	clear: both;
+	display: block;
+	overflow: hidden;
+}
+
+#homeContent h2 {
+	color: #4F91B0;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	font-weight: normal;
+	border-bottom:1px solid #E3E3E3;
+	margin: 0 0 10px 0;
+	padding: 10px 0;
+}
+
+/* **************************/
+/*     ASIDE ELEMENTS       */
+/* **************************/
+#content nav.widget ul li {
+	padding:6px 0 10px 38px;
+	font-size: 1.2em;
+}
+
+#content nav.widget ul .rss {
+	background:transparent url(../images/rssfeed.png) no-repeat 0 0;
+}
+
+#content nav.widget ul .email {
+	background:transparent url(../images/mail.png) no-repeat 0 0;
+}
+
+#content nav.widget ul .twitter {
+	background:transparent url(../images/twitter.png) no-repeat 0 0;
+}
+
+#nav_SideBar {
+	margin: 10px 0 5px 0;
+	clear: both;
+	overflow: hidden;
+}
+
+#nav_SideBar h3 a, #nav_SideBar h3 a:link {
+	color: #747474;
+	line-height: 1.2em;
+	font-weight: normal;
+	border-bottom:1px solid #E3E3E3;
+	margin: 0 0 10px 0;
+	padding: 10px 0;
+	display: block;
+}
+
+#nav_SideBar h3 a:hover {
+	color: #4F91B0;
+}
+
+#nav_SideBar ul li {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav_SideBar ul li a, #nav_SideBar ul li a:link {
+	background:url("../images/icon_bullet.png") no-repeat scroll 0 2px transparent;
+	font-size: 1.2em;
+	padding-left: 25px;
+	padding-bottom: 7px;
+	display: block;
+}
+
+#nav_SideBar ul li a.current {
+	color: #747474;
+	font-weight: bold;
+}
+
+#nav_SideBar ul li a.hasChildren {
+	background:url("../images/icon_bullet_open.png") no-repeat scroll 0 2px transparent;
+}
+
+#nav_SideBar ul li ul {
+	margin:0 0 0 0;
+}
+
+#nav_SideBar ul li ul li {
+	padding-left: 25px;
+}
+
+#nav_SideBar ul li ul li a, #nav_SideBar ul li ul li a:link  {
+	font-size: 0.95em;
+	display: block;
+}
+
+
+/* **************************/
+/*     BLOG ELEMENTS       */
+/* **************************/
+hgroup.BlogTitle {
+	margin: 0 0 0px 0;
+	padding: 0px 0 20px 0;
+	position: relative;
+}
+
+hgroup.BlogTitle h2 {
+	color: #4F91B0;
+	font-size: 1.7em;
+	line-height: 1.2em;
+	font-weight: normal;
+	margin: 0 0 0px 0;
+	padding: 0px 0 0 45px;
+}
+
+hgroup.BlogTitle h2 a, hgroup.BlogTitle h2 a:link {
+	text-decoration: none;
+}
+
+hgroup.BlogTitle h6.meta {
+	font-size: 0.9em;
+	line-height: 1em;
+	font-weight: normal;
+	margin: 5px 0 0px 0;
+	padding: 0px 0 0 45px;
+}
+
+hgroup.BlogTitle a, hgroup.BlogTitle a:link {
+	text-decoration: underline;
+}
+
+hgroup.BlogTitle h6.numComments {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background:transparent url(../images/commentcount.png) no-repeat scroll left top;
+	font-size:0.9em;
+	font-weight:600;
+	height:33px;
+	margin-right:10px;
+	margin-top:5px;
+	padding-top:7px;
+	text-align:center;
+	width:35px;
+}
+
+hgroup.BlogTitle h6.numComments a, hgroup.BlogTitle h6.numComments a:link {
+	text-decoration: none;
+}
+
+.WidgetHolder {
+	margin: 10px 0 5px 0;
+	clear: both;
+	overflow: hidden;
+}
+
+.WidgetHolder h3 {
+	color: #747474;
+	font-size: 1.6em;
+	line-height: 1.2em;
+	font-weight: normal;
+	border-bottom:1px solid #E3E3E3;
+	margin: 0 0 10px 0;
+	padding: 10px 0;
+}
+
+#SubscribeRSSWidget a.subscribeLink {
+	display: block;
+	padding:6px 0 10px 38px;
+	background:transparent url(../images/rssfeed.png) no-repeat 0 0;
+}
+
+#SubscribeRSSWidget p {
+	margin-bottom: 5px;
+}
+
+#social, #trackbacks {
+	border-top: 1px solid #E3E3E3;
+	margin: 20px 0 0 0;
+	padding: 10px 0 0 0;
+	overflow: hidden;
+}
+
+#social h4, #social p, #trackbacks h4, #trackbacks p {
+	margin-bottom: 5px;
+}
+
+#social ul {
+	list-style-type: none;
+}
+
+#social ul li {
+	float: left;
+	background: none;
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+
+#social ul li a, #social ul li a:link {
+	display:block;
+	padding: 0 10px 7px 20px;
+}
+
+#social ul li a.designfloat {
+	background: transparent url('../images/social/designfloat.png') no-repeat left top;
+}
+
+#social ul li a.delicious {
+	background: transparent url('../images/social/delicious.png') no-repeat left top;
+}
+
+#social ul li a.digg {
+	background: transparent url('../images/social/digg.png') no-repeat left top;
+}
+
+#social ul li a.reddit {
+	background: transparent url('../images/social/reddit.png') no-repeat left top;
+}
+
+#social ul li a.stumbleupon {
+	background: transparent url('../images/social/stumbleupon.png') no-repeat left top;
+}
+
+#social ul li a.technorati {
+	background: transparent url('../images/social/technorati.png') no-repeat left top;
+}
+
+
+
+/* *****************************/
+/*   PAGE COMMENT ELEMENTS    */
+/* ****************************/
+#PageComments_holder {
+	border-top: 1px solid #E3E3E3;
+	margin: 15px 0 0 0;
+	padding: 20px 0;
+}
+
+#PageCommentInterface_Form_PostCommentForm {
+	margin-bottom: 30px;
+}
+
+#PageComments_holder h4 {
+	font-size: 1.6em;
+}
+
+#CommentHolder ul {
+   list-style: none;
+   margin: 20px 0;
+}
+
+#PageComments li {
+   margin: 5px 0;
+   padding: 1px;
+   width: 88%;
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-radius: 10px;
+}
+
+#PageComments li.odd {
+   background: #F1F1F1;
+   padding-left: 40px;
+   padding-right: 10px;
+   border: 1px solid #E5E5E5;
+}
+
+#PageComments li.even {
+	background: #E7F1F3;
+	border: 1px solid #BBE0E8;
+	padding-left: 40px;
+	padding-right: 10px;
+}
+
+.PageComments_Header {
+	margin: 10px 0;
+}
+
+.PageComments_Header h5 {
+	margin: 0;
+	font-size: 1.6em;
+}
+
+.PageComments_Header {
+	color: #A7A7A7;
+	font-size: 0.85em;
+}
+
+#PageComments p {
+   font-size: 1em;
+}
+#PageComments p.info {
+   color: #999;
+   margin: 0px;
+   padding: 0;
+   line-height: 1em;
+   font-size: 0.9em;
+}
+
+.actionLinks li a {
+   padding-right: 3px;
+   font-size: 10px;
+}
+#PageComments .actionLinks li {
+display: inline;
+border-right: 1px solid;
+background: none;
+}
+#PageComments .actionLinks li.last {
+border-right: none;
+}
+
+.commentrss {
+	background: transparent url(../images/rssfeed.png) no-repeat;
+	padding: 10px 10px 10px 40px;
+	line-height: 1.6em;
+	
+}
+#PageCommentsPagination p {
+   text-align: center;
+   font-size: 1.2em;
+}
+
+/* **************************/
+/*  PAGINATION ELEMENTS    */
+/* **************************/
+#PageNumbers {
+	padding: 5px 0 10px 0;
+	font-size: 0.9em;
+	overflow: hidden;
+	float: right;
+	display: block;
+}
+
+#PageNumbers .current {
+	padding: 2px 7px;
+	margin: 0 1px;
+	font-weight: bold;
+	display: block;
+	float: left;
+	border: 1px solid #D2D2CF;
+}
+
+#PageNumbers a, #PageNumbers a:link {
+	display: block;
+	padding: 2px 7px;
+	margin: 0 1px;
+	border: 1px solid #D2D2CF;
+	background: #E7E7E2;
+	text-decoration: none;
+}
+
+#PageNumbers span a {
+	float: left;
+}
+
+#PageNumbers a.next {
+	float: right;
+}
+
+#PageNumbers a.prev {
+	float: left;
+}
+
+#PageNumbers a:hover {
+	background: #E7E7E2;
+	border: 1px solid #cccccc;
+}
+
+/* **************************/
+/*     MESSAGE BOXES       */
+/* **************************/
+.message {
+	padding: 5px;
+	width: 92%;
+	border: 2px solid #e7a200;
+	background: #f5da99;
+}
+span.middleColumn .message {
+	margin: 4px 0 0 3px;
+}
+.required {
+	margin: 4px 0 0 3px;
+	padding: 5px;
+	width: 92%;
+	color: #DC1313;
+	border: 4px solid #FF7373;
+	background: #FED0D0;
+}
