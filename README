@@ -1,7 +1,7 @@
 ##########################
 SimpleStripe Theme Details
 ##########################
-SimpleStripe is a basic bare bones theme for Silverstripe. It utilizes html5 for the code markup.  SimpleStripe is simple and semantic an dbuild under the philosophy of Progressive Enhancment and Progressive Enrichment. SimpleStripe's inspiration is drawn directly from SimpleFolio - a wordpress theme. SimpleStripe borrows heavily from this theme's look and feel but departs from that inspiration to enable this for SilverStripe as well as make it html5 compliant.
+SimpleStripe is a basic bare bones theme for Silverstripe. It utilizes html5 for the code markup.  SimpleStripe is simple and semantic and build under the philosophy of Progressive Enhancment and Progressive Enrichment. SimpleStripe's inspiration is drawn directly from SimpleFolio - a wordpress theme. SimpleStripe borrows heavily from this theme's look and feel but departs from that inspiration to enable this for SilverStripe as well as make it html5 compliant.
 
 SimpleStripe was built for Silverstripe 2.4 and greater.
 
