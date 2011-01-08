@@ -1,6 +1,6 @@
 SimpleStripe Theme Details
 ==========================
-SimpleStripe is a basic bare bones theme for Silverstripe. It utilizes html5 for the code markup.  SimpleStripe is simple and semantic and build under the philosophy of Progressive Enhancment and Progressive Enrichment. SimpleStripe's inspiration is drawn directly from SimpleFolio - a wordpress theme. SimpleStripe borrows heavily from this theme's look and feel but departs from that inspiration to enable this for SilverStripe as well as make it html5 compliant.
+SimpleStripe is a basic bare bones theme for Silverstripe. It utilizes html5 for the code markup.  SimpleStripe is simple and semantic and build under the philosophy of Progressive Enhancement and Progressive Enrichment. SimpleStripe's inspiration is drawn directly from SimpleFolio - a wordpress theme. SimpleStripe borrows heavily from this theme's look and feel but departs from that inspiration to enable this for SilverStripe as well as make it html5 compliant.
 
 SimpleStripe was built for Silverstripe 2.4 and greater.
 
@@ -18,10 +18,10 @@ For extra goodies for SimpleStripe check out SilverStriper.com. There you can do
 
 Take this theme and build on it. 
 
-Site Config
+###Site Config
 You can setup TypeKit on SimpleStripe:
 Twitter Account
 Add your twitter account as just "@username" and your twitter handle will appear in the sidebar
 
-Home Page
+###Home Page
 Grab The Home Page Add-On pack and get access to a three column home layout. This also will give you the ability to dynamically pull your latest blog posts into the home page.

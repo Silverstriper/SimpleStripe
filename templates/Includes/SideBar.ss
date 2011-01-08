@@ -33,7 +33,7 @@
 <nav class="widget">
 	<ul>
 		<!--<li class="rss"><a href="blog/rss">Subscribe to RSS Feed</a></li>-->
-		<li class="twitter"><a href="http://twitter.com/silverstriper">Follow me on Twitter</a></li>
+		<li class="twitter"><a href="http://twitter.com/{$SiteConfig.TwitterAccount}">Follow me on Twitter</a></li>
 	</ul>
 </nav>
 <% end_if %>
