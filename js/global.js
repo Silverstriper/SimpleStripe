@@ -2,7 +2,7 @@
 ;(function($) {
 	$(document).ready(function() {
  		/* Local Scroll */
- 		$('a').smoothScroll({exclude:['#PageCommentsPagination p a', '#PageNumbers p span a', 'a.next', 'a.prev']});
+ 		$('a').smoothScroll({exclude:['#PageCommentsPagination p a', '#PageNumbers p span a', 'a.next', 'a.prev', 'header nav ul li a']});
 		
 		//Search Box Toggle		
 		$("#search-box").hide().find('input.text').val('Search');
