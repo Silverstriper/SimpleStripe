@@ -43,7 +43,7 @@
 		
 	</div>
 	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
 	<script src="themes/simplestripe/js/plugins/jquery.smooth-scroll.js" type="text/javascript" charset="utf-8"></script>
 	<script src="themes/simplestripe/js/global.js" type="text/javascript" charset="utf-8"></script>
 	</body>
