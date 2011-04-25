@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="$ContentLocale">
+<!--[if lt IE 7 ]> <html class="ie6" lang="$ContentLocale"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="$ContentLocale"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="$ContentLocale"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="$ContentLocale"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
 	<% base_tag %>
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+	Remove this if you use the .htaccess -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width; minimum-scale=1; maximum-scale=1" />
 	<% if MetaDescription %><meta name="description" http-equiv="description" content="$MetaDescription" /><% end_if %>
 	<meta name="generator" content="SilverStripe - http://www.silverstripe.org" />
 	<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
+	
+	
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="stylesheet" href="themes/simplestripe/css/layout.css" type="text/css" media="screen" />
 	
