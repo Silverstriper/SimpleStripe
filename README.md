@@ -11,7 +11,6 @@ SimpleStripe was built for Silverstripe 2.4 and greater.
 
 
 ## Add Ons
-
 For extra goodies for SimpleStripe check out SilverStriper.com. There you can download a Siteconfig that will enable you to utilize TypeKit. Grab the HomePage add on Pack to get more flexibility in your HomePage.
 
 Take this theme and build on it. 
